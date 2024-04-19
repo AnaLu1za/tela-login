@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 body{
     margin: 0;
-
+    font-family: 'Noto Sans', sans-serif;
+}
+body *{
+    box-sizing: border-box;
 }
 .main-login{
     width: 100vw;
@@ -19,8 +23,11 @@ body{
     flex-direction: column;
 }
 .left-login > h1{
+    font: 3vw;
     color: #77ffc0;
-
+}
+.left-login-img{
+    width: 35vw;
 }
 .right-login{
     width: 50vw;
@@ -30,7 +37,7 @@ body{
     align-items: center;
 }
 .card-login{
-    width: 30%;
+    width: 60%;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -46,10 +53,12 @@ body{
     margin: 0;
 }
 .textfield{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    margin: 10px 0px;
 }
 .textfield > input{
     width: 100%;
@@ -59,5 +68,76 @@ body{
     background: #514869;
     color: #f0ffffde;
     font-size: 12pt;
-    
+    box-shadow: 0px -10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+.textfield > label{
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+.textfield > input::placeholder{
+    color: #f0ffff94;
+}
+button{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+
+@media only screen and (max-widht: 950px){
+    .card-login{
+        width: 85%;
+    }
+}
+@media only screen and (max-widht: 600px){
+    .main-login{
+        flex-direction: column;
+    }
+    .left-login > h1{
+        display: none;
+    }
+    .left-login{
+        width: 100%;
+        height: auto;
+    }
+    .right-login{
+        width: 100%;
+        height: auto;
+    }
+    .left-login-img{
+        width: 50vw;
+    }
+    .card-login{
+        width: 90%;
+    }
+}
+.rec-senha{
+    color: antiquewhite;
+}
+a{
+    color: antiquewhite;
+}
+.rec-botao{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 0px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
 }
