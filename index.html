@@ -10,22 +10,30 @@
     <div class="main-login">
         <div class="left-login">
             <h1>Faça Login</h1>
+            <form id="login_form">
+            <img src="plantinhas.svg" class="left-login-img" alt="plantinhas animação">
         </div>
         <div class="right-login">
             <div class="card-login">
                 <h1>LOGIN</h1>
                 <div class="textfield">
-                    <label for="usuario">Usuário</label>
-                    <input type="text" name="usuario" placeholder="Usuário">
+                    <label for="name">Usuário</label>
+                    <input type="text" name="name" placeholder="Usuário">
                 </div>
                 <div class="textfield">
-                    <label for="senha">Senha</label>
-                    <input type="password" name="senha" placeholder="Senha">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" placeholder="E-mail">
                 </div>
-                <button class="btn-login">Login</button>
-
+                <div class="textfield">
+                    <label for="password">Senha</label>
+                    <input type="password" name="password" placeholder="Senha">
+                </div>
+                <a href="recuperacao-senha.html"button class="w-100 btn btn-lg btn-primary" type="submit">Esqueceu sua senha?</button></a>
+                <button type=" submit">entrar</button>
             </div>
         </div>
     </div>
+</form>
 </body>
 </html>
+<script src="script.js"></script>
