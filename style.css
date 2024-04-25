@@ -153,3 +153,66 @@ a{
   bottom: 36px;
   left: 300px;
 }
+body{
+  background-color: #201b2c;
+}
+.main-content {
+  padding: 50px; 
+  background-color: #201b2c;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content h1 {
+  font-size: 2rem; 
+  margin-bottom: 15px; 
+  color: #f0ffffde;
+}
+
+.main-content p {
+  font-size: 1rem; 
+  line-height: 1.5; 
+  margin-bottom: 25px; 
+  color: aliceblue;
+}
+
+.user-options {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+}
+
+.option-card {
+  width: calc(50% - 20px); 
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #2f2841; 
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  transition: all 0.2s ease-in-out; 
+}
+
+
+.option-card:hover {
+  background-color: #201b2c; 
+  transform: translateY(-2px); 
+}
+
+.option-card img {
+  margin-bottom: 10px; 
+  width: 50px; 
+  height: 50px; 
+}
+
+.option-card h3 {
+  font-size: 1.2rem; 
+  margin-bottom: 5px; 
+}
+
+.option-card p {
+  font-size: 0.9rem;
+  line-height: 1.2; 
+}
