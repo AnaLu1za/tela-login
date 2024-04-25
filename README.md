@@ -11,14 +11,16 @@ Este repositório contém o código para um projeto de login e recuperação de 
 ## Descrição
 * Este arquivo HTML representa a estrutura básica de uma tela de login. Ele exibe uma tela de login com três campos fundamentais para o acesso a qualquer tipo de site, pedindo nome, e-mail e senha.
 
-![Tela de Login](img/tela-login.PNG)
+![Tela de Login](img/Gravando-2024-04-25-105629_1.gif)
 
 ## Introdução
 * Seja bem-vindo a tela de login! Este projeto demonstra a estrutura básica de uma tela de login em HTML e CSS, com um sistema de autenticação desenvolvido co JavaScript. 
 
 **A estrutura do projeto:**
 - ``index.html:`` Página inicial para login com formulário e ida para página de recuperação de senha.
+![tela-login](img/login.png)
 - ``recuperacao-senha.html:`` Tela de recuperação de senha com formulário.
+![rec-senha](img/rec-senha.png)
 - ``style.css:`` Arquivo principal de estilos CSS.
 - ``script.js:`` Arquivo principal de JavaScript com as função de validação.
 
