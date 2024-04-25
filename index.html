@@ -18,22 +18,30 @@
                 <h1>LOGIN</h1>
                 <div class="textfield">
                     <label for="name">Usuário</label>
-                    <input type="text" name="name" placeholder="Usuário">
+                    <input type="text" name="name" placeholder="Usuário" autofocus>
                 </div>
                 <div class="textfield">
                     <label for="email">E-mail</label>
-                    <input type="email" name="email" placeholder="E-mail">
+                    <input type="email" name="email" placeholder="E-mail" autofocus>
                 </div>
                 <div class="textfield">
                     <label for="password">Senha</label>
-                    <input type="password" name="password" placeholder="Senha">
+                    <input type="password" name="password" placeholder="Senha" autofocus>
                 </div>
                 <a href="recuperacao-senha.html"button class="w-100 btn btn-lg btn-primary" type="submit">Esqueceu sua senha?</button></a>
-                <button type=" submit">entrar</button>
-            </div>
+                <button type=" submit" value="entar" onclick="valideteForm(event); return false">entrar</button>
+            </div> 
+    // value e onclick são só testes
         </div>
     </div>
 </form>
+// teste
+<form>
+    <input type="text" id="nome" placeholder="Nome do Usuário" autofocus>
+    <input type="password" id="senha" placeholder="Senha do Usuário" autofocus>
+    <input type="submit"  value="entrar" onclick="logar(); return false">            
+</form>
+// teste
 </body>
 </html>
 <script src="script.js"></script>
