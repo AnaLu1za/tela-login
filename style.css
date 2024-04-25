@@ -94,33 +94,40 @@ button{
     box-shadow: 0px 10px 40px -12px #00ff8052;
 }
 
-@media only screen and (max-widht: 950px){
+@media only screen and (max-width: 950px){
     .card-login{
-        width: 85%;
+      width: 85%;
     }
-}
-@media only screen and (max-widht: 600px){
+  }
+  
+  @media only screen and (max-width: 600px){
     .main-login{
-        flex-direction: column;
+      flex-direction: column;
     }
-    .left-login > h1{
-        display: none;
+  
+    .left-login > h1 {
+      display: none;
     }
-    .left-login{
-        width: 100%;
-        height: auto;
+  
+    .left-login {
+      width: 100%;
+      height: auto;
     }
-    .right-login{
-        width: 100%;
-        height: auto;
+  
+    .right-login {
+      width: 100%;
+      height: auto;
     }
-    .left-login-img{
-        width: 50vw;
+  
+    .left-login-image {
+      width: 40vh;
     }
-    .card-login{
-        width: 90%;
+  
+    .card-login {
+      width: 90%;
     }
-}
+  }
+
 .rec-senha{
     color: antiquewhite;
 }
