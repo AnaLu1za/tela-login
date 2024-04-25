@@ -18,30 +18,25 @@
                 <h1>LOGIN</h1>
                 <div class="textfield">
                     <label for="name">Usuário</label>
-                    <input type="text" name="name" placeholder="Usuário" autofocus>
+                    <input type="text" name="name" placeholder="Usuário" autofocus required>
+                    <img src="img/person_FILL0_wght400_GRAD0_opsz24.png">
                 </div>
                 <div class="textfield">
                     <label for="email">E-mail</label>
-                    <input type="email" name="email" placeholder="E-mail" autofocus>
+                    <input type="email" name="email" placeholder="E-mail" autofocus required>
+                    <img src="img/mail_FILL0_wght400_GRAD0_opsz24.png">
                 </div>
                 <div class="textfield">
                     <label for="password">Senha</label>
-                    <input type="password" name="password" placeholder="Senha" autofocus>
+                    <input type="password" name="password" placeholder="Senha" autofocus required>
+                    <img src="/img/key_FILL0_wght400_GRAD0_opsz24.png">
                 </div>
                 <a href="recuperacao-senha.html"button class="w-100 btn btn-lg btn-primary" type="submit">Esqueceu sua senha?</button></a>
-                <button type=" submit" value="entar" onclick="valideteForm(event); return false">entrar</button>
+                <button type=" submit" value="entar" formaction="pagina.html">Entrar</button>
             </div> 
-    // value e onclick são só testes
         </div>
     </div>
 </form>
-// teste
-<form>
-    <input type="text" id="nome" placeholder="Nome do Usuário" autofocus>
-    <input type="password" id="senha" placeholder="Senha do Usuário" autofocus>
-    <input type="submit"  value="entrar" onclick="logar(); return false">            
-</form>
-// teste
+<script src="script.js"></script>
 </body>
 </html>
-<script src="script.js"></script>
