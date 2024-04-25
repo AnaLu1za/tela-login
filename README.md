@@ -18,9 +18,11 @@ Este repositório contém o código para um projeto de login e recuperação de 
 
 **A estrutura do projeto:**
 - ``index.html:`` Página inicial para login com formulário e ida para página de recuperação de senha.
+
 ![tela-login](img/login.png)
 
 - ``recuperacao-senha.html:`` Tela de recuperação de senha com formulário.
+
 ![rec-senha](img/rec-senha.png)
 
 - ``style.css:`` Arquivo principal de estilos CSS.
