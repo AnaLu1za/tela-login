@@ -7,19 +7,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <form id="login_form">
     <div class="main-login">
     <div class="rec-senha">
         <h1>Recuperação de Senha</h1>
     <div class="textfield">
         <label for="email">Digite seu e-mail para que possamos alterar sua senha</label>
-        <input type="email" name="e-mail" placeholder="E-mail" required>
-        <br>
-        <button class="rec-botao" type="submit" value="entrar">Enviar</button>
+        <div class="textfield">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" placeholder="E-mail" autofocus required>
+        </div>
+        <button class="rec-botao" id="login_botton" type="submit" value="entrar">Enviar</button>
         <br>
         <a href="index.html"button class="w-100 btn btn-lg btn-primary" type="submit">Voltar para página inicial</button></a>
     </div>
     </div>
     </div>
+</form>
+    <script href="script2.js"></script>
 </body>
 </html>
